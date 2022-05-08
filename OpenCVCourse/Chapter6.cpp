@@ -13,7 +13,7 @@ int hmax{179}, smax{ 255 }, vmax{ 255 };
 
 int main() {
 
-	string path = "Resources/shapes.png";
+	string path = "Resources/lambo.png";
 	Mat img = imread(path);
 	cvtColor(img, imgHSV, COLOR_BGR2HSV);
 	namedWindow("Trackbars");
